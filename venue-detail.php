@@ -36,7 +36,7 @@
 			<div class="px-content clearfix">
 			    <div class="px-content-main fx-sticky-seth colr-c01">
                     <div class="px-content-container">
-                        <div class="">
+                        <div class="px-cateList-outter">
                             <ul class="px-cateList inline-box">
                                 <li class="c01 active">
                                     <a href="#" class="box">
@@ -87,6 +87,66 @@
                                     </a>
                                 </li>
                             </ul>
+                            <div id="fx-stickCateList" class="px-cateList-mobile">
+                                <div class="SearchMenu-item">
+                                    <span class="topic-text">YOUR DESTINATION</span>
+                                    <div class="px-favBox-expand">
+                                        <i class="fa fa-chevron-acc"></i>
+                                    </div>
+                                </div>
+                                <div class="px-cateList-wrap">
+                                    <ul class="px-cateList inline-box">
+                                        <li class="c01 active">
+                                            <a href="#" class="box">
+                                                <div class="bg-sprite"></div>
+                                                ที่พัก
+                                            </a>
+                                        </li>
+                                        <li class="c02">
+                                            <a href="#" class="box">
+                                                <div class="bg-sprite"></div>
+                                                สถานที่จัดประชุม
+                                            </a>
+                                        </li>
+                                        <li class="c03">
+                                            <a href="#" class="box">
+                                                <div class="bg-sprite"></div>
+                                                สถานที่จัดกิจกรรม
+                                            </a>
+                                        </li>
+                                        <li class="c04">
+                                            <a href="#" class="box">
+                                                <div class="bg-sprite"></div>
+                                                สถานที่ท่องเที่ยว
+                                            </a>
+                                        </li>
+                                        <li class="c05">
+                                            <a href="#" class="box">
+                                                <div class="bg-sprite"></div>
+                                                โครงการพระราชดำริ
+                                            </a>
+                                        </li>
+                                        <li class="c06">
+                                            <a href="#" class="box">
+                                                <div class="bg-sprite"></div>
+                                                ร้านอาหาร
+                                            </a>
+                                        </li>
+                                        <li class="c07">
+                                            <a href="#" class="box">
+                                                <div class="bg-sprite"></div>
+                                                ร้านขายของที่ระลึก
+                                            </a>
+                                        </li>
+                                        <li class="c08">
+                                            <a href="#" class="box">
+                                                <div class="bg-sprite"></div>
+                                                ผู้ประกอบการท้องถิ่น
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
                         <br>
                         <div class="px-content-title h-strip">
@@ -311,6 +371,14 @@
                             LIKE
                             <div class="px-likeBox-num">14,500</div>
                         </div>
+                        <div class="px-likeBox-mobile">
+                            <div class="px-likeBox-icon">
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <div class="px-likeBox-icon">
+                                <i class="fa fa-exchange"></i>
+                            </div>
+                        </div>
                     </div>
                     
                     <!-- FAV -->
@@ -326,7 +394,7 @@
                     </div>
                     */
                     ?>
-                    <div class="px-favBox open">
+                    <div class="px-favBox open px-desktop">
                         <div class="px-favBox-head">
                             <div class="px-favBox-expand">
                                 <i class="fa fa-chevron-acc"></i>
@@ -359,7 +427,7 @@
                     </div>
                     <!-- COMPARE -->
                     <div id="fx-sticky-bound"></div>
-                    <div class="px-favBox" style="margin-top:10px;">
+                    <div class="px-favBox px-desktop" style="margin-top:10px;">
                         <div class="px-favBox-head">
                             <div class="px-favBox-expand">
                                 <i class="fa fa-plus"></i>
@@ -479,7 +547,7 @@
                                 <?php } ?>
                                 <!-- /List item -->
                             </div>
-                            <div class="b-arrow-slide cf px-control-owl" data-owlref="#slideEvent">
+                            <div class="b-arrow-slide cf px-control-owl" data-owlref="#slideEvent" style="margin-top:0;">
                                 <a class="btn-arrow left"></a>
                                 <div class="b-number fl cf">
                                     <p class="currentItem">
@@ -558,7 +626,7 @@
                                 <?php } ?>
                                 <!-- /List item -->
                             </div>
-                            <div class="b-arrow-slide cf px-control-owl" data-owlref="#slidePromotion">
+                            <div class="b-arrow-slide cf px-control-owl" data-owlref="#slidePromotion" style="margin-top:0;">
                                 <a class="btn-arrow left"></a>
                                 <div class="b-number fl cf">
                                     <p class="currentItem">
