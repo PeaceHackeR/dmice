@@ -87,7 +87,7 @@
                                     </a>
                                 </li>
                             </ul>
-                            <div id="fx-stickCateList" class="px-cateList-mobile">
+                            <div id="fx-stickCateList" class="px-cateList-mobile invis">
                                 <div class="SearchMenu-item">
                                     <span class="topic-text">YOUR DESTINATION</span>
                                     <div class="px-favBox-expand">
@@ -175,17 +175,17 @@
                         <h4>Contact :</h4>
                         <ul class="px-content-contact">
                             <li>
-                                <i class="txt-colr01 fa fa-map"></i>241 หมู่ 5 ต.ท่ากระดาน อ.ศรีสวัสดิ์ จังหวัดกาญจนบุรี
+                                <div class="ico-listcontact px-icoct01"></div>241 หมู่ 5 ต.ท่ากระดาน อ.ศรีสวัสดิ์ จังหวัดกาญจนบุรี
                             </li>
                             <li>
-                                <i class="txt-colr01 fa fa-envelope"></i>Email : contact:lakeheaven.com
+                                <div class="ico-listcontact px-icoct02"></div>Email : contact:lakeheaven.com
                             </li>
                             <li>
-                                <i class="txt-colr01 fa fa-phone"></i>
+                                <div class="ico-listcontact px-icoct03"></div>
                                 Phone : 08-4387-6742, 08-4387-6763
                             </li>
                             <li>
-                                <i class="txt-colr01 fa fa-globe"></i>
+                                <div class="ico-listcontact px-icoct04"></div>
                                 <a href="http://www.lakeheaven.com/" target="_blank">http://www.lakeheaven.com/</a>
                             </li>
                         </ul>
@@ -300,7 +300,7 @@
                                         </div>
                                         <div class="px-scroll">
                                             <div class="px-mapPanel-imgInfo">
-                                                <img class="px-mapPanel-img" src="{{image}}" alt="">
+                                                <img class="px-mapPanel-img" {{image}} alt="">
                                             </div>
                                             <?php /*
                                             <div class="px-mapPanel-body px-mapPanel-info">{{desc}}</div>
